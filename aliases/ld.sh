@@ -1,0 +1,2 @@
+# Oneline list of commits with relative dates
+git config --global alias.ld 'log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=relative'

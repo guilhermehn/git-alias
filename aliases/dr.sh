@@ -1,0 +1,2 @@
+# Show diff for given revision
+git config --global alias.dr '!f() { git diff "$1"^.."$1"; }; f'

@@ -1,0 +1,2 @@
+# Files modified in the last commit
+git config --global alias.dl '!git ll -1'
