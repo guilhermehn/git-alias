@@ -1,8 +1,9 @@
-#!/bin/sh
-. ./aliases/dl.sh
-. ./aliases/dlc.sh
-. ./aliases/fl.sh
-. ./aliases/ld.sh
-. ./aliases/lds.sh
-. ./aliases/ll.sh
-. ./aliases/ls.sh
+#!/usr/bin/env bash
+
+for SCRIPT in ./aliases/*
+do
+  if [ -f $SCRIPT -a -x $SCRIPT ]
+  then
+    $SCRIPT
+  fi
+done
